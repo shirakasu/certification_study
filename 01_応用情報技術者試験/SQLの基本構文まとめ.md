@@ -38,6 +38,14 @@ WHERE 条件;
 
 ```
 
+- DISTINCT: 重複データの除外
+- DISTINCT句は，クエリ結果から重複する行を除外する際に利用する．
+
+```sql
+SELECT DISTINCT カラム名
+FROM テーブル名;
+```
+
 - ORDER BY: 結果の並べ替え
 - ORDER BY句は，クエリ結果を指定したカラムの値で並べ替える際に使用する
 
